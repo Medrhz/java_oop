@@ -1,5 +1,3 @@
-import relation_objects.Employee;
-
 import java.util.ArrayList;
 
 
@@ -54,27 +52,27 @@ public class Main {
         }
 
 
-        ArrayList<Employee> employees = new ArrayList<>(); // declare array of employees
+        //        ArrayList<Employee> employees = new ArrayList<>(); // declare array of employees
 
         // create objects of employees
-
-        Employee e1 = new Employee(1, "Mohamed", 5000);
-        Employee e2 = new Employee(2, "Zakaria", 6000);
-        Employee e3 = new Employee(3, "Fadwa", 8000);
-        Employee e4 = new Employee(4, "Fatima", 9000);
-
-        employees.add(e1);
-        employees.add(e2);
-        employees.add(e3);
-        employees.add(e4);
-
-        for (int i = 0; i < employees.size(); i++) {
-            System.out.println(employees.get(i));
-        }
-        
-        for (Employee e : employees) {
-            System.out.println(e);
-        }
+        //
+        //        Employee e1 = new Employee(1, "Mohamed", 5000);
+        //        Employee e2 = new Employee(2, "Zakaria", 6000);
+        //        Employee e3 = new Employee(3, "Fadwa", 8000);
+        //        Employee e4 = new Employee(4, "Fatima", 9000);
+        //
+        //        employees.add(e1);
+        //        employees.add(e2);
+        //        employees.add(e3);
+        //        employees.add(e4);
+        //
+        //        for (int i = 0; i < employees.size(); i++) {
+        //            System.out.println(employees.get(i));
+        //        }
+        //
+        //        for (Employee e : employees) {
+        //            System.out.println(e);
+        //        }
 
 
     }
